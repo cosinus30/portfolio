@@ -1,38 +1,28 @@
-import * as React from "react"
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-} from "@chakra-ui/react"
-import { ColorModeSwitcher } from "./ColorModeSwitcher"
-import { Logo } from "./Logo"
+import React, { useState } from "react";
+import { ChakraProvider, theme } from "@chakra-ui/react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Menu } from "./components/Menu/Menu";
+import { Project } from "./containers/Projects/Projects";
+import { Home } from "./containers/Home/Home";
 
-export const App = () => (
-  <ChakraProvider theme={theme}>
-    <Box textAlign="center" fontSize="xl">
-      <Grid minH="100vh" p={3}>
-        <ColorModeSwitcher justifySelf="flex-end" />
-        <VStack spacing={8}>
-          <Logo h="40vmin" pointerEvents="none" />
-          <Text>
-            Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
-          </Text>
-          <Link
-            color="teal.500"
-            href="https://chakra-ui.com"
-            fontSize="2xl"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn Chakra
-          </Link>
-        </VStack>
-      </Grid>
-    </Box>
-  </ChakraProvider>
-)
+export const App = () => {
+    const [isOpen, setIsOpen] = useState(false);
+    const handleToggle = () => {
+        setIsOpen(!isOpen);
+    };
+    
+    return (
+        <BrowserRouter>
+            <ChakraProvider theme={theme}>
+                <Menu isOpen={isOpen} toggle={handleToggle} />
+                <Switch>
+                  <Route path="/projects" component={Project}/>
+                  <Route path="/about" component={() => <h1>About page</h1>}/>
+                  <Route exact path="/contact" component={() => <h1>Contact page!</h1>}/>
+                  <Route exact path="/" component={Home}/>
+                  <Route path="/" component={() => <h1>There is an error</h1>}/>
+                </Switch>
+            </ChakraProvider>
+        </BrowserRouter>
+    );
+};
