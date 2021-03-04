@@ -1,7 +1,7 @@
 import { Badge, Box, Heading, Image, Text, useColorMode, VStack } from "@chakra-ui/react";
 import React from "react";
 
-interface CardProps {
+export interface CardProps {
     tags: string[];
     imageProps: {
         imageSrc: string;
