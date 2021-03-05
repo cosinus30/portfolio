@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Center, Flex, Switch, Text, useColorMode } from "@chakra-ui/react";
+import { Box, Flex, useColorMode } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "../../ColorModeSwitcher";
 import { MenuToggle, MenuToggleProps } from "./MenuToggle";
 import { MenuLogo } from "./MenuLogo";

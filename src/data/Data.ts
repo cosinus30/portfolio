@@ -1,6 +1,6 @@
 import { CardProps } from "../components/Card/Card";
 
-export const Projects: CardProps[] = [
+export const projects: CardProps[] = [
     {
         description: "React application where you can find popular, trending titles for bot movies and tv-series",
         header: "Movies and Series",
