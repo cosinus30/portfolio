@@ -33,9 +33,6 @@ export const Menu: React.FC<MenuToggleProps> = (props) => {
                 <MenuItem to={"/about"} toggle={toggle}>
                     About
                 </MenuItem>
-                <MenuItem to={"/contact"} toggle={toggle}>
-                    Contact
-                </MenuItem>
             </Box>
 
             <Box display={{ base: isOpen ? "block" : "none", md: "block" }} mt={{ base: 4, md: 0 }}>
