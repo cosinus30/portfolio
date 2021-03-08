@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/cosinus30/portfolio/static/css/main.68436d28.chunk.css",
-    "main.js": "/cosinus30/portfolio/static/js/main.1b1520e4.chunk.js",
-    "main.js.map": "/cosinus30/portfolio/static/js/main.1b1520e4.chunk.js.map",
-    "runtime-main.js": "/cosinus30/portfolio/static/js/runtime-main.4a3176e4.js",
-    "runtime-main.js.map": "/cosinus30/portfolio/static/js/runtime-main.4a3176e4.js.map",
-    "static/js/2.2bac0e06.chunk.js": "/cosinus30/portfolio/static/js/2.2bac0e06.chunk.js",
-    "static/js/2.2bac0e06.chunk.js.map": "/cosinus30/portfolio/static/js/2.2bac0e06.chunk.js.map",
-    "static/js/3.dadeb626.chunk.js": "/cosinus30/portfolio/static/js/3.dadeb626.chunk.js",
-    "static/js/3.dadeb626.chunk.js.map": "/cosinus30/portfolio/static/js/3.dadeb626.chunk.js.map",
-    "index.html": "/cosinus30/portfolio/index.html",
-    "static/css/main.68436d28.chunk.css.map": "/cosinus30/portfolio/static/css/main.68436d28.chunk.css.map",
-    "static/js/2.2bac0e06.chunk.js.LICENSE.txt": "/cosinus30/portfolio/static/js/2.2bac0e06.chunk.js.LICENSE.txt",
-    "static/media/boo1.6b9b8907.svg": "/cosinus30/portfolio/static/media/boo1.6b9b8907.svg",
-    "static/media/burgerBuilder.19eb910f.png": "/cosinus30/portfolio/static/media/burgerBuilder.19eb910f.png",
-    "static/media/excelRepportBuilder.4b6c2370.png": "/cosinus30/portfolio/static/media/excelRepportBuilder.4b6c2370.png",
-    "static/media/jiraloganalytics.26101686.png": "/cosinus30/portfolio/static/media/jiraloganalytics.26101686.png",
-    "static/media/meetingsrestapi.32ec365b.png": "/cosinus30/portfolio/static/media/meetingsrestapi.32ec365b.png",
-    "static/media/moviesnseries.65681be3.png": "/cosinus30/portfolio/static/media/moviesnseries.65681be3.png",
-    "static/media/publishingplatform.ef8516e3.png": "/cosinus30/portfolio/static/media/publishingplatform.ef8516e3.png",
-    "static/media/yelpcampclone.6dc32aa5.png": "/cosinus30/portfolio/static/media/yelpcampclone.6dc32aa5.png"
+    "main.css": "/portfolio/static/css/main.68436d28.chunk.css",
+    "main.js": "/portfolio/static/js/main.08e3ffda.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.08e3ffda.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.d391780c.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d391780c.js.map",
+    "static/js/2.2bac0e06.chunk.js": "/portfolio/static/js/2.2bac0e06.chunk.js",
+    "static/js/2.2bac0e06.chunk.js.map": "/portfolio/static/js/2.2bac0e06.chunk.js.map",
+    "static/js/3.dadeb626.chunk.js": "/portfolio/static/js/3.dadeb626.chunk.js",
+    "static/js/3.dadeb626.chunk.js.map": "/portfolio/static/js/3.dadeb626.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.68436d28.chunk.css.map": "/portfolio/static/css/main.68436d28.chunk.css.map",
+    "static/js/2.2bac0e06.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2bac0e06.chunk.js.LICENSE.txt",
+    "static/media/boo1.6b9b8907.svg": "/portfolio/static/media/boo1.6b9b8907.svg",
+    "static/media/burgerBuilder.19eb910f.png": "/portfolio/static/media/burgerBuilder.19eb910f.png",
+    "static/media/excelRepportBuilder.4b6c2370.png": "/portfolio/static/media/excelRepportBuilder.4b6c2370.png",
+    "static/media/jiraloganalytics.26101686.png": "/portfolio/static/media/jiraloganalytics.26101686.png",
+    "static/media/meetingsrestapi.32ec365b.png": "/portfolio/static/media/meetingsrestapi.32ec365b.png",
+    "static/media/moviesnseries.65681be3.png": "/portfolio/static/media/moviesnseries.65681be3.png",
+    "static/media/publishingplatform.ef8516e3.png": "/portfolio/static/media/publishingplatform.ef8516e3.png",
+    "static/media/yelpcampclone.6dc32aa5.png": "/portfolio/static/media/yelpcampclone.6dc32aa5.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4a3176e4.js",
+    "static/js/runtime-main.d391780c.js",
     "static/js/2.2bac0e06.chunk.js",
     "static/css/main.68436d28.chunk.css",
-    "static/js/main.1b1520e4.chunk.js"
+    "static/js/main.08e3ffda.chunk.js"
   ]
 }
