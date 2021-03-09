@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
                 <ButtonGroup spacing="4">
                     <a href="mailto:yunuskeremturk@gmail.com" target="_blank" rel="noreferrer">
                         <IconButton
-                            bgColor={colorMode === "dark" ? "gray.900" : "gray.400"}
+                            bgColor={colorMode === "dark" ? "gray.800" : "gray.400"}
                             icon={<FaEnvelope />}
                             aria-label="Send Mail"
                         />
@@ -27,7 +27,7 @@ export const Footer: React.FC = () => {
                         rel="noreferrer"
                     >
                         <IconButton
-                            bgColor={colorMode === "dark" ? "gray.900" : "gray.400"}
+                            bgColor={colorMode === "dark" ? "gray.800" : "gray.400"}
                             icon={<FaLinkedin />}
                             aria-label="Linked in"
                         />
