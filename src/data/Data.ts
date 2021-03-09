@@ -34,7 +34,7 @@ export const projects: CardProps[] = [
         demoUrl: "https://nameless-escarpment-20086.herokuapp.com/",
     },
     {
-        description: "A data visualizer to visualize jira repports for a sprint.",
+        description: "A data visualizer to visualize jira reports for a sprint.",
         header: "Jira Logs Analytics",
         imageProp: "",
         tags: ["VanillaJs", "ES-6", "ChartJs"],
@@ -48,10 +48,10 @@ export const projects: CardProps[] = [
         githubUrl: "https://github.com/cosinus30/DjangoRest",
     },
     {
-        description: "A tool for generating excel repports based on Jira repports.",
-        header: "Jira Repporter",
+        description: "A tool for generating excel reports based on Jira reports.",
+        header: "Jira Reporter",
         imageProp: "",
         tags: ["Electron", "VanillaJs"],
-        githubUrl: "https://github.com/cosinus30/ExcelRepportBuilder",
+        githubUrl: "https://github.com/cosinus30/ExcelReportBuilder",
     },
 ];

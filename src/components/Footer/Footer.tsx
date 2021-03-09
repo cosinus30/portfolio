@@ -34,7 +34,7 @@ export const Footer: React.FC = () => {
                     </a>
                 </ButtonGroup>
                 <Text marginY="2" fontWeight="thin" fontSize="0.85em">
-                    Build with React by Yunus Kerem Turk.
+                    Built with React by Yunus Kerem Turk.
                 </Text>
             </Container>
         </Box>
