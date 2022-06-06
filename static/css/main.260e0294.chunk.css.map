@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/containers/About/About.module.css"],"names":[],"mappings":"AAAA,mFACI,eACJ","file":"main.260e0294.chunk.css","sourcesContent":[".MakeItBigger::first-letter{\n    font-size: 1.50em;\n}"]}
